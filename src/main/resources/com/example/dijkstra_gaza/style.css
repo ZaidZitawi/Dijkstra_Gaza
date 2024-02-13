@@ -1,0 +1,32 @@
+/* style.css */
+.root {
+    -fx-background-color: #FAFAFA;
+}
+
+.control-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+}
+
+.combo-box {
+    -fx-pref-width: 200px;
+}
+
+.text-area {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 100px;
+    -fx-wrap-text: true;
+}
+
+.button-raised {
+    -fx-background-color: #0000FF;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+}
+
+.map-image {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dijkstra_gaza.MapController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+    <children>
+        <HBox spacing="20" AnchorPane.bottomAnchor="10" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="10">
+            <ScrollPane fitToHeight="true" fitToWidth="true" HBox.hgrow="ALWAYS">
+                <content>
+                <AnchorPane fx:id="wp" layoutX="50" layoutY="50" AnchorPane.bottomAnchor="50" AnchorPane.leftAnchor="50" AnchorPane.rightAnchor="300" AnchorPane.topAnchor="50">
+                    <ImageView fx:id="mapImageView" preserveRatio="true" styleClass="map-image">
+                        <Image url="@Ghaza.jpg" />
+                    </ImageView>
+                </AnchorPane>
+                </content>
+            </ScrollPane>
+            <VBox spacing="10" styleClass="control-panel" HBox.hgrow="NEVER">
+                <children>
+                    <Label styleClass="control-label" text="From" />
+                    <ComboBox fx:id="from" prefWidth="200" styleClass="combo-box" />
+                    <Label styleClass="control-label" text="To" />
+                    <ComboBox fx:id="to" prefWidth="200" styleClass="combo-box" />
+                    <Button fx:id="findPathButton" prefWidth="200" styleClass="button-raised" text="Run" />
+                    <Label styleClass="control-label" text="Path" />
+                    <TextArea fx:id="path" prefHeight="100" prefWidth="200" styleClass="text-area" wrapText="true" />
+                    <Label styleClass="control-label" text="Cost" />
+                    <TextArea fx:id="cost" prefHeight="50" prefWidth="200" styleClass="text-area" />
+                </children>
+            </VBox>
+        </HBox>
+    </children>
+</AnchorPane>
