@@ -11,3 +11,4 @@ This project implements an optimized version of Dijkstra's shortest path algorit
 
 ##Quick Insight
 
+![Project Example](/images/algorithm-example.png)
