@@ -9,7 +9,7 @@ This project implements an optimized version of Dijkstra's shortest path algorit
 - Improved query time through algorithmic optimizations.
 - Supports dynamic updates for repeated path queries.
 
-##Quick Insight
+## Quick Insight
 
-![Project Example](/images/Gaza.jpg)
-![Project Example](/images/Gaza1.jpg)
+![gaza](https://github.com/ZaidZitawi/Dijkstra_Gaza/assets/111902956/8e12e9f5-cd63-4f51-ad56-30dbb736c23b)
+![gaza1](https://github.com/ZaidZitawi/Dijkstra_Gaza/assets/111902956/1ee8b005-cf0a-4506-bd3e-3fdb173b460b)
